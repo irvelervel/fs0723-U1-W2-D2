@@ -30,6 +30,7 @@ const comedian = {
     nico: true,
   },
   'name-of-the-trio': 'Aldo, Giovanni e Giacomo',
+  skills: ['climbing', 'mimicking'],
 }
 
 console.log('COMEDIAN', comedian)
