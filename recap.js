@@ -70,6 +70,8 @@ let discount = userIsSubscribedToNewsletter ? '25%' : '5%'
 
 // = condizione rispettata ? valore se sì : valore se no
 // l'utente è iscritto alla newsletter? se sì, ha il 25% di sconto. se no, ha il 5%
+// in questo caso la variabile discount ha un valore di '25%'
+console.log('DISCOUNT', discount)
 
 let cat = 'Silvestro'
 console.log(cat) // 'Silvestro'
@@ -77,4 +79,4 @@ console.log(cat) // 'Silvestro'
 let dog
 console.log(dog) // undefined
 
-console.log(zebra) // ERRORE! perchè non esiste la variabile "zebra"
+// console.log(zebra) // ERRORE! perchè non esiste la variabile "zebra"
